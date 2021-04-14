@@ -1,0 +1,252 @@
+form{
+position: absolute;
+width: 1250px;
+height: 600px;
+background: linear-gradient(180deg, rgba(7, 245, 168, 0.364583) 0%, rgba(8, 248, 118, 0) 0.01%, #04F0FF 0.02%, #01FC8E 56.25%, #00FF75 99.99%);
+}
+
+.box{
+position: absolute;
+width: 405px;
+height: 550px;
+left: 450px;
+top: 20px;
+
+background: #BFEFE4;
+}
+
+.img1{
+position: absolute;
+width: 500px;
+height: 500px;
+left: 0px;
+top: 100px;
+
+background: url(im.jpg);
+opacity: 0.4;
+}
+
+.img2{
+position: absolute;
+width: 385.57px;
+height: 413.06px;
+left: 865px;
+top: 1px;
+
+background: url(im.jpg);
+opacity: 0.4;
+transform: rotate(-180deg);
+}
+
+.kub{
+position: absolute;
+width: 331px;
+height: 25px;
+left: 480px;
+top: 20px;
+
+font-family: Scada;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+color:#00BFFF;
+line-height: 25px;
+text-align: center;
+}
+
+.text1{
+position: absolute;
+width: 42px;
+height: 25px;
+left: 460px;
+top: 50px;
+
+font-family: Scada;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #726D6D;
+}
+
+.text2{
+position: absolute;
+width: 42px;
+height: 25px;
+left: 460px;
+top: 105px;
+
+font-family: Scada;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #726D6D;
+}
+
+.text3{
+position: absolute;
+width: 45px;
+height: 25px;
+left: 460px;
+top: 160px;
+
+font-family: Scada;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #726D6D;
+}
+
+.text4{
+position: absolute;
+width: 42px;
+height: 25px;
+left: 460px;
+top: 215px;
+
+font-family: Scada;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #726D6D;
+}
+
+.text5{
+position: absolute;
+width: 50px;
+height: 25px;
+left: 460px;
+top: 270px;
+
+font-family: Scada;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #726D6D;
+}
+
+.text6{
+position: absolute;
+width: 50px;
+height: 25px;
+left: 460px;
+top: 325px;
+
+font-family: Scada;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #726D6D;
+}
+
+.text7{
+position: absolute;
+width: 50px;
+height: 25px;
+left: 600px;
+top: 495px;
+
+font-family: Scada;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #696969
+}
+
+.area1{
+position: absolute;
+width: 361px;
+height: 25px;
+left: 470px;
+top: 90px;
+
+background: #C4C4C4;
+border-radius: 10px;
+}
+
+.area2{
+position: absolute;
+width: 361px;
+height: 25px;
+left: 470px;
+top: 145px;
+
+background: #C4C4C4;
+border-radius: 10px;
+}
+
+.area3{
+position: absolute;
+width: 361px;
+height: 25px;
+left: 470px;
+top: 200px;
+
+background: #C4C4C4;
+border-radius: 10px;
+}
+
+.area4{
+position: absolute;
+width: 361px;
+height: 25px;
+left: 470px;
+top: 255px;
+
+background: #C4C4C4;
+border-radius: 10px;
+}
+
+.area5{
+position: absolute;
+width: 361px;
+height: 25px;
+left: 470px;
+top: 310px;
+
+background: #C4C4C4;
+border-radius: 10px;
+}
+
+.area6{
+position: absolute;
+width: 361px;
+height: 60px;
+left: 470px;
+top: 365px;
+
+background: #C4C4C4;
+border-radius: 10px;
+}
+
+.area7{
+position: absolute;
+width: 200px;
+height: 50px;
+left: 550px;
+top: 500px;
+
+background: #00FFF0;
+border-radius: 40px;
+}
+
+input.error { 
+    border: 3px solid #ff0000; /** Красная рамка вокруг поля(input) при ошибке**/
+} 
+label.error { 
+    color: #ff0000; /** Меняем цвет текста при ошибке**/
+    font-weight: normal; 
+}
